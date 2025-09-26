@@ -1,9 +1,5 @@
-﻿# task-manager
 
-
-***
-
-# task-manager
+ # task-manager
 
 A simple command-line task management tool written in Node.js. This CLI app allows you to add, update, delete, and track tasks with different statuses such as todo, in-progress, and done. Tasks are stored persistently in a JSON file.
 
@@ -81,6 +77,7 @@ node task-cli.js list todo
 ## Data Storage
 
 Tasks are stored in a `tasks.json` file in the same directory. The app automatically creates this file if it does not exist.
+
 
 
 
